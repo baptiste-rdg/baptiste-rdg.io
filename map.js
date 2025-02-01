@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // fichier avec l'ensemble des données 
     const fichierGeoNom = 'merged.geojson';
 
-    const baseUrl = window.location.origin;
+    const baseUrl = window.location.origin + '/baptiste-rdg.io';
 
     // position de l'utilisateur (par defaut sur paris)
     if (localStorage.getItem('userX') === null || localStorage.getItem('userY') === null) {
